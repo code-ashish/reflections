@@ -3,3 +3,6 @@ A .git file is created. You need it to track changes to the files in the reposit
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Staging area is the location where files are temporarily stored before that version of the file is saved using a commit. It allows to use commit command to save a version of multiple files at the same time.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can add the files with one logical change to the staging area and together commit them when the all the files are added to the staging area. 
