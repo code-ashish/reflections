@@ -5,4 +5,7 @@ How is the staging area different from the working directory and the repository?
 Staging area is the location where files are temporarily stored before that version of the file is saved using a commit. It allows to use commit command to save a version of multiple files at the same time.
 
 How can you use the staging area to make sure you have one commit per logical change?
-You can add the files with one logical change to the staging area and together commit them when the all the files are added to the staging area. 
+You can add the files with one logical change to the staging area and together commit them when the all the files are added to the staging area.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When you want to try something new on the code but do not want to lose the existing code. The changes can be made on the branch without modifying the original code.
