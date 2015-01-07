@@ -9,3 +9,12 @@ You can add the files with one logical change to the staging area and together c
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 When you want to try something new on the code but do not want to lose the existing code. The changes can be made on the branch without modifying the original code.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams help by showing each branch graphically. This helps in visualizing the branch structure.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The commits of both the branches are added to the version control by git. Because they are two separate branches that get merged together.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pros are that git can do the merge by itself. Cons are that git might not know which piece of code to keep hence may pick the wrong code to keep in the merged version.
