@@ -12,3 +12,6 @@ Clone means to copy a repository and commits can be linked to each copy of the r
 Branch means to create a branch on master to test some new features to the code.
 Use fork to copy the repository but not to make changes to that repository. Clone is done to create a copy
 and have both copies linked. Branch is done to test or add new features.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+Git can compare the status of the file with the version in state of remote to determine status of the commits.
