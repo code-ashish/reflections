@@ -19,3 +19,5 @@ Git can compare the status of the file with the version in state of remote to de
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Using an online document editor like google docs or a cloud storage like dropbox. It will be difficult to track changes, also difficult to simultaneously work on a document.
  
+ When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+ When you want to try a new feature that you are not sure will be part of the master. Doing changes in master is easier to pull/push to github. Benefit of doing changes in branch is that you do not disturb the master and the branch can be discarded if not required.
